@@ -20,7 +20,7 @@ public class SavingsAccount extends BankAccount{
             super.withdraw(amount);
         }
         else {
-            throw new Exception("Maximum Withdraw Limit Exceed");
+            throw new Exception("Maximum Withdraw Limit Exceeded");
 
         }
 
