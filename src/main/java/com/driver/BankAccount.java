@@ -70,7 +70,7 @@ public class BankAccount {
         // Remember to throw "Insufficient Balance" exception, if the remaining amount would be less than minimum balance
 
         double remainingBalance = balance-amount;
-        if((balance-amount) <= minBalance){
+        if((balance-amount) < minBalance){
             throw new Exception("Insufficient Balance");
         }
         balance=remainingBalance;
